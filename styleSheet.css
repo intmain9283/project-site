@@ -1,0 +1,224 @@
+			html{
+				background: #fffaf0;
+				background-size: 100% 100%;
+			}
+			
+			body{
+				background-color: transparent;
+				width: 100%;
+			}
+			div {
+				text-align: center;
+			}
+			section {
+				width: 50%;
+				margin: auto;
+				padding: 10px;
+				text-align: center;
+			}
+			
+			
+			th, #cavsRosTable td {
+				color: #ffb81c;
+				text-align: center;
+			}
+			
+			p {
+				position: relative;
+				display: block;
+				margin: auto;
+				color: #FFFFB2;
+				background-color: gray;
+				opacity: 0.8;
+				z-index: -2;
+			}
+			
+			h2 {
+				color: #A2AAAD;
+				text-shadow: 2px 2px 8px #111111;
+			}
+			
+			ul{
+				font-family: "Arial Black", Gadget, sans-serif;
+				font-size: 15px;
+				list-style-type: none;
+				width: 100%;
+				margin: 0;
+				padding: 0;
+				opacity: 0.75;
+				background: -webkit-linear-gradient(#A2AAAD, #FFFFFF);
+			}
+			
+	
+			li {
+				float: left;
+				
+			}
+			
+			li: last-child{
+				border-right: none;
+			}
+
+			li a {
+				display: block;
+				color: #CA001A;
+				text-align: center;
+				padding: 8px;
+				text-decoration: none;
+				border-right: none;
+			}
+
+			li a:hover{
+				text-decoration: none;
+				background: -webkit-linear-gradient(#192F6B, #FFFFFF);
+				opacity: 0.8;
+			}
+
+			.dropdown-menu{
+				border-right: none;
+				width: auto;
+				z-index: 1000;
+			}
+
+
+			.dropdown {
+				max-width: 250px;
+				border-right: none;
+			}
+	
+			.active {
+				background: -webkit-linear-gradient(#0F0F0F, #FFFFFF);
+			}
+			
+			.carousel-inner .item  img {
+				height: 500px;
+				width: 100%;
+				margin: auto;
+
+		}
+			
+			.news h3 {
+				text-align: left;
+			}
+
+			.dropdownContent a:hover {
+				background-color: #f1f1f1;
+			}
+			.dropdown:hover .dropdownContent {
+				display: block;
+			}
+			.cowboys {background: -webkit-linear-gradient(left, #999999, rgb(13,37,76), #999999 ); color: rgb(255,255,255); opacity: 0.8;}
+			.saints {background: -webkit-linear-gradient(left, rgb(210,184,135), #333333); color: rgb(255,255,255); opacity: 0.8;}
+			.redskins {background: -webkit-linear-gradient(left, #999999, #862633, #999999); color: #FFB612; opacity: 0.8;}
+			.vikings{background: -webkit-linear-gradient(left, #360160, #222222); color: #F0BF00; opacity: 0.8;}
+			.packers{background: -webkit-linear-gradient(left, #203731, #444444); color: #FFB612; opacity: 0.8;}
+			.ravens{background: -webkit-linear-gradient(left, #280353, #444444); color:#D0B240; opacity: 0.8;}
+			.rams{background: -webkit-linear-gradient(left, #333333, #13264B, #333333); color: #C9AF74; opacity: 0.8;}
+			.eagles{background: -webkit-linear-gradient(left, #aaaaaa, #003B48, #AAAAAA); color: #000000; opacity: 0.8;}
+			.bengals{background: -webkit-linear-gradient(left, #000000 #FB4F14, #000000); color: #FFFFFF; opacity: 0.8;}
+			.bears{background: -webkit-linear-gradient(left, #111111, #03202F, #111111); color: #DD4814; opacity: 0.8;}
+			.browns{background: -webkit-linear-gradient(left, #222222, #26201E, #222222); color: #FE3C00; opacity: 0.8;}
+			.steelers{background: -webkit-linear-gradient(left, #333333, #000000, #333333); color: #FFB612; opacity: 0.8;}
+			.lions{background: -webkit-linear-gradient(left, #999999, #006DB0, #999999); color: #C5C7CF; opacity: 0.8;}
+			.bucs{background: -webkit-linear-gradient(left, #333333, #C8102E, #333333); color: #FF8200; opacity: 0.8;}
+			.chargers{background: -webkit-linear-gradient(left, #555555,#0072CE, #555555); color: #FFB81C; opacity: 0.8;}
+			.broncos{background: -webkit-linear-gradient(left, #999999,#FC4C02, #999999); color: #0C2340; opacity: 0.8;}
+			.seahawks{background: -webkit-linear-gradient(left, #aaaaaa,#001433, #aaaaaa); color: #4DFF00; opacity: 0.8;}
+			.niners{background: -webkit-linear-gradient(left, #cccccc, #896C4C, #cccccc); color: #9b2743; opacity: 0.8;}
+			.raiders{background: -webkit-linear-gradient(left, #999999, #101820, #999999); color: #A5AcAf; opacity: 0.8;}
+			.chiefs{background: -webkit-linear-gradient(left, #999999, #C8102E, #999999); color: #FFB81c; opacity: 0.8;}
+			.cardinals{background: -webkit-linear-gradient(left, #999999, #9b2743, #999999); color: #ffCD00; opacity: 0.8;}
+
+			.hawks {	background: -webkit-radial-gradient(#E03A3E, #222222); color: rgb(195,214,0); opacity; 0.8;}
+			.celtics {background: -webkit-radial-gradient(#008348, #222222); color: #FFffff; opacity; 0.8;}
+			.nets {background: -webkit-radial-gradient(#000000, #222222); color: #FFFFFF; opacity; 0.8;}
+			.hornets {background: -webkit-radial-gradient(#1D1160, #008CA8); color: #A1A1A4; opacity; 0.8;}
+			.bulls {background: -webkit-radial-gradient(#CE1141, #111111); color: #FFFFFF; opacity; 0.8;}
+			.mavericks {background: -webkit-radial-gradient(#20385B, #aaaaaa); color: #C4CED3; opacity; 0.8;}
+			.nuggets {background: -webkit-radial-gradient(#004770, #FFB20F); color: #FFFFFF; opacity; 0.8;}
+			.pistons {background: -webkit-radial-gradient(#001F70, #006BB6); color: rgb(237,23,76); opacity; 0.8;}
+			.warriors {background: -webkit-radial-gradient(#006BB6, #222222); color: #FDB927; opacity; 0.8;}
+			.rockets {background: -webkit-radial-gradient(#CE1141, #222222); color: #Ffffff; opacity; 0.8;}
+			.pacers {background: -webkit-radial-gradient(#00275D, #222222); color: rgb(255,198,51); opacity; 0.8; }
+			.clippers {background: -webkit-radial-gradient(#ED174C, #006BB6); color: #BEC0C2; opacity; 0.8; }
+			.lakers {background: -webkit-radial-gradient(#552582, #777777); color: #FDB927; opacity; 0.8;}
+			.grizzlies {background: -webkit-radial-gradient(left, #23375B, #BBD1E4); color: #FFD432; opacity; 0.8;}
+			.heat {background: -webkit-radial-gradient(left, #98002E, #F9A01B); color: #000000; opacity; 0.8;}
+			.bucks {background: -webkit-radial-gradient(left, #00471B, #000000); color: #EEE1C6; opacity; 0.8;}
+			.timberwolves {background: -webkit-radial-gradient(left, #005083, #00A94F); color: #C4CED3; opacity; 0.8;}
+			.pelicans {background: -webkit-radial-gradient(#002B5C, #444444); color: #B4975A; opacity; 0.8;}
+			.knicks {background: -webkit-radial-gradient(#006bb6, #777777); color: #ff671f; opacity; 0.8;}
+			.thunder {background: -webkit-radial-gradient(left, #007DC3, #F05133); color: #FDBB30; opacity; 0.8;}
+			.magic {background: -webkit-radial-gradient(left, #007DC5, #444444); color: #C4CED3; opacity; 0.8;}
+			.sixers {background: -webkit-radial-gradient(left, #ED174C, #222222); color: #006BB6; opacity; 0.8;}
+			.suns {background: -webkit-radial-gradient(left, #1D1160, #E56020); color: #000000; opacity; 0.8;}
+			.trailblazers {background: -webkit-radial-gradient(left, #F0163A, #000000); color: #B6BFBF; opacity; 0.8;}
+			.kings {background: -webkit-linear-gradient(left, #724C9F, #000000); color: #8E9090; opacity; 0.8;}
+			.spurs {background: -webkit-linear-gradient(left, #B6BFBF, #000000); color: #FFFFFF; opacity; 0.8;}
+			.raptors {background: -webkit-linear-gradient(left, #CE1141, #000000); color: #C4CED3; opacity; 0.8;}
+			.jazz {background: -webkit-linear-gradient(left, #002B5C, #00471B); color: #F9A01B; opacity; 0.8;}
+			.wizards {background: -webkit-radial-gradient(#C8102E, #0c2340); color: #ffffff; opacity; 0.8;}
+			
+			#cavsSchHeader, #cavsRosHeader{
+				font-size: 1.5em;
+				font-family: Chicago, Georgia, Sans-Serif;
+			}
+			#cavsRosTable , #cavsSchTable{
+
+			}
+			#cavsRosTable tr {
+				background: -webkit-linear-gradient(left, #444444, #041e42, #444444);
+				opacity: 0.8;
+			}
+			#cavsRosTable tr:nth-child(even){
+				background: -webkit-linear-gradient(left, #444444, #6f263d, #444444);
+				opacity: 0.8;
+			}
+			#vertBar{
+				background: -webkit-linear-gradient(#192F6B, #A2AAAD, #CA001A);
+			}
+			#home {
+				z-index: -1;
+				margin: 0 auto;
+				
+				
+			}
+			#widgetmain1{
+				position: relative;
+				z-index: -3;
+				margin: 0 auto;
+				background: -webkit-linear-gradient(left, #F9F9F9, #192F6b, #F9F9F9);
+				opacity: 0.8;
+
+			}
+			#widgetmain2{
+				position: relative;
+				margin: 0 auto;
+				background: -webkit-linear-gradient(45deg, #860038, #333333);
+
+			}
+
+			#cavsTableBody{
+				width: 35%;
+				height: 400px;
+				overflow: scroll;
+				margin: 0 auto;
+				padding: 2px;
+				position:relative;
+				z-index: 1;			
+			}
+			
+			#giantsTableBody{
+				background-color: gray;
+				width: 25%;
+				height: 600px;
+				margin: 4px auto;
+				padding: 2px 2px 7px 2px;
+				position:relative;
+				z-index: -1;
+			}
+
+
+			
+
+

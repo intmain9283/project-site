@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Dogs</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="styleSheet.css">
+		<script>
+			function openNewTab(url) {
+			
+				var win = window.open(url, '_blank');
+				win.focus();
+			}
+		</script>
+	</head>
+
+	<body>
+	<nav class="navbar">
+		<ul class="pull-left">
+			<li><a href="hiBabe.html">Home</a></li>
+			<li><a class="active" href="dogs.html">Dogs</a></li>
+			<li><a href="giantsSchedule.html">Giants Schedule</a></li>
+			<li><a href="cavsSchedule.html">Cavs Schedule</a></li>
+			<li class="dropdown pull-right">
+				<a class ="dropdown-toggle" data-toggle="dropdown">Shows<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+						
+					<li><a onclick="openNewTab('http://www.cbs.com/shows/the_bold_and_the_beautiful/');">The Bold and the Beautiful</a></li>
+					<li><a onclick="openNewTab('http://www.nbc.com/chicago-fire/');">Chicago Fire</a></li>
+					<li><a onclick="openNewTab('http://www.nbc.com/chicago-med/');">Chicago Med</a></li>
+					<li><a onclick="openNewTab('http://www.nbc.com/chicago-pd/');">Chicago P.D.</a></li>
+					<li><a onclick="openNewTab('http://abc.go.com/shows/greys-anatomy/');">Grey's Anatomy</a></li>
+					<li><a onclick="openNewTab('http://www.cbs.com/shows/code-black');">Code Black</a></li>
+						
+				</ul>
+			</li>
+		</ul>
+	</nav> <br>
+		<div class="container">
+			<div id="dogCarousel" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators" style="margin: 0 auto;">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item active">
+						<img class="img-responsive" src="https://vetstreet-brightspot.s3.amazonaws.com/75/4b4300a74a11e0a0d50050568d634f/file/German-Shepherd-2-645mk062411.jpg" alt="German Shepard" height="170">
+					</div>
+					<div class="item">
+						<img class="img-responsive"src="http://cdn.akc.org/golden-retriever-stacked-white-background.jpg" alt="Golden Retriever" height="170">
+					</div>
+					<div class="item">
+						<img class="img-responsive" src="http://cdn3-www.dogtime.com/assets/uploads/2011/01/file_23124_pug-460x290.jpg" alt="Pug" height="170">
+					</div>
+					<div class="item">
+						<img class="img-responsive" src="https://vetstreet.brightspotcdn.com/dims4/default/65bbc05/2147483647/thumbnail/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2Fc1%2Ff9%2F13fe778446f1b8a4fcbe7146e4a4%2FAP-TVQEZK-ph645080113.jpg" alt="pug" height="170">
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

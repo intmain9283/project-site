@@ -1,0 +1,89 @@
+﻿<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> Hi babe </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="styleSheet.css">
+		<script>
+			function openNewTab(url) {
+			
+				var win = window.open(url, '_blank');
+				win.focus();
+			}
+			
+			function monthDay() {
+				var d = new Date();
+				var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+				var monthStr = months[d.getMonth()];
+				var day = d.getDate();
+				
+				return monthStr + " " + day;
+			}
+		</script>
+		
+	</head>
+<body>
+	<header style="margin-top: 50px;">
+		<h1>This is a message to Haley Marie Steiner</h1>	
+	</header>
+	<nav class="navbar navbar-fixed-top">
+			<ul class="pull-left">
+				<li><a class="active" href="hiBabe.html">Home</a></li>
+				<li><a href="dogs.html">Dogs</a></li>
+				<li><a href="giantsSchedule.html">Giants Schedule</a></li>
+				<li><a href="cavsSchedule.html">Cavs Schedule</a></li>
+				<li class="dropdown pull-right">
+					<a class ="dropdown-toggle" data-toggle="dropdown">Shows<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+							
+						<li><a onclick="openNewTab('http://www.cbs.com/shows/the_bold_and_the_beautiful/');">The Bold and the Beautiful</a></li>
+						<li><a onclick="openNewTab('http://www.nbc.com/chicago-fire/');">Chicago Fire</a></li>
+						<li><a onclick="openNewTab('http://www.nbc.com/chicago-med/');">Chicago Med</a></li>
+						<li><a onclick="openNewTab('http://www.nbc.com/chicago-pd/');">Chicago P.D.</a></li>
+						<li><a onclick="openNewTab('http://abc.go.com/shows/greys-anatomy/');">Grey's Anatomy</a></li>
+						<li><a onclick="openNewTab('http://www.cbs.com/shows/code-black');">Code Black</a></li>
+							
+					</ul>
+				</li>
+			</ul>
+	</nav> 
+	
+	<div id="home">
+		<p> Hi babe! :p Here's a picture of a cat</p> <br>
+
+		<img src="C:\Users\Haley\Desktop\Cat-Kitten.jpg" alt="Cat" height="163"> <br>
+		<div class="container-fluid">
+			<div id="news" class="carousel slide" data="data-slide">
+				<ol class="carousel-indicators" style="margin: 0 auto;">
+					<li data-target="#news" data-slide-to="0" class="active"></li>
+					<li data-target="#news" data-slide-to="1"></li>
+				</ol>
+				
+					<div class="carousel-inner">
+						<div class="item active">
+							<div id="widgetmain1" style="width: 100%;"><div id="rsswidget" style="height:200px; position: relative; z-index: -2;"><iframe src="http://us1.rssfeedwidget.com/getrss.php?time=1488961713633&amp;x=http%3A%2F%2Fwww.giants.com%2Fcda-web%2Frss-module.htm%3FtagName%3DNews&amp;w=100%&amp;bc=333333&amp;bw=1&amp;bgc=transparent&amp;m=20&amp;it=true&amp;t=(default)&amp;tc=111111&amp;ts=36&amp;tb=transparent&amp;il=true&amp;lc=111111&amp;ls=14&amp;lb=false&amp;id=true&amp;dc=CA001A&amp;ds=14&amp;idt=true&amp;dtc=111111&amp;dts=12" border="0" hspace="0" vspace="0" frameborder="no" marginwidth="0" marginheight="0" style="border:0; padding:0; margin:0 auto; width:100%; height:100%;" id="rssOutput">Reading RSS Feed ...</iframe></div><div style="text-align:right;margin-bottom:0;border-top:1px solid #333333;" id="widgetbottom"><span style="font-size:70%"><a href="http://www.rssfeedwidget.com">rss feed widget</a>&nbsp;</span><br></div></div>
+
+						</div>
+						<div class="item">
+							<div id="widgetmain2" style="width: 100%;"><div id="rsswidget1" style="height:200px; position: relative;"><iframe src="http://us1.rssfeedwidget.com/getrss.php?time=1488964052477&amp;x=http%3A%2F%2Ffeeds.feedburner.com%2Fcavs_news%3Fformat%3Dxml&amp;w=100%&amp;h=10%&amp;bc=333333&amp;bw=1&amp;bgc=transparent&amp;m=20&amp;it=true&amp;t=(default)&amp;tc=999999&amp;ts=45&amp;tb=transparent&amp;il=true&amp;lc=999999&amp;ls=14&amp;lb=false&amp;id=true&amp;dc=FDBB30&amp;ds=14&amp;idt=true&amp;dtc=FDBB30&amp;dts=12" border="0" hspace="0" vspace="0" frameborder="no" marginwidth="0" marginheight="0" style="border:0; padding:0; margin:0 auto; width:100%; height:100%" id="rssOutput1">Reading RSS Feed ...</iframe></div><div style="text-align:right;margin-bottom:0;border-top:1px solid #333333;" id="widgetbottom1"><span style="font-size:70%"><a href="http://www.rssfeedwidget.com">rss feed widget</a>&nbsp;</span><br></div></div>
+						</div>
+					</div>
+				
+				<a class="carousel-control-prev" href="#news" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</a>
+				<a class="carousel-control-next" href="#news" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</a>
+			</div>
+		</div>
+		
+	</div>
+		
+		
+</body>
+</html>
