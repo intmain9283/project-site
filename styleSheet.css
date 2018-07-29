@@ -18,7 +18,7 @@
 			}
 			
 			
-			 #cavsRosTable td {
+			 #cavsRosTable td, #cavsSchTable th {
 				color: #ffb81c;
 				text-align: center;
 			}
@@ -225,6 +225,7 @@
 			}
 			
 			#giantsTable th {
+				font-size: 1.5em;
 				color:#CA001A;
 				text-align: center;
 			}
