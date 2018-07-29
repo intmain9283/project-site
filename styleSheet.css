@@ -223,7 +223,10 @@
 				position:relative;
 				z-index: -1;
 			}
-
+			
+			#giantsTable:th {
+				color:#A2AAAD;
+			}
 
 			
 
