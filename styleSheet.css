@@ -229,6 +229,10 @@
 				color:#CA001A;
 				text-align: center;
 			}
+			
+			#giantsTable th tr th {
+				font-size: 1em;
+			}
 
 			
 
