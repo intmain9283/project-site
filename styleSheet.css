@@ -223,16 +223,19 @@
 				position:relative;
 				z-index: -1;
 			}
-			
-			#giantsTable th {
+			#colHeader th{
+				font-size: 1em;
+				color:#CA001A;
+				text-align: center;
+			}
+			#tableHeader {
 				font-size: 1.5em;
 				color:#CA001A;
 				text-align: center;
 			}
 			
-			#giantsTable th tr th {
-				font-size: 1em;
-			}
+
+			
 
 			
 
