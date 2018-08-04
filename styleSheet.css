@@ -234,6 +234,12 @@
 				text-align: center;
 			}
 			
+			.carousel-indicators li {
+				background-color: blue;
+			}
+			li.active {
+				background-color: green;
+			}
 
 			
 
