@@ -18,10 +18,7 @@
 			}
 			
 			
-			 #cavsRosTable td, #cavsSchTable th {
-				color: #ffb81c;
-				text-align: center;
-			}
+
 			
 			p {
 				position: relative;
@@ -168,9 +165,11 @@
 			#cavsSchHeader, #cavsRosHeader{
 				font-size: 1.5em;
 				font-family: Chicago, Georgia, Sans-Serif;
+				text-align: center;
 			}
-			#cavsRosTable , #cavsSchTable{
-
+			 #cavsRosTable td, #cavsSchTable th, #cavsRosTable tr th {
+				color: #ffb81c;
+				text-align: center;
 			}
 			#cavsRosTable tr {
 				background: -webkit-linear-gradient(left, #444444, #041e42, #444444);
